@@ -4,7 +4,7 @@ const initialState = {
   Board: null,
   win: false,
   movements: 0,
-  level: 5,
+  level: 8,
 };
 
 export function getInterfaces({ x, y }) {

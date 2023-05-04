@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
-  Options: ["x3", "x4", "x5", "x7"],
+  Options: ["x3", "x4", "x5", "x7", "x9"],
   CurrentOption: "",
 };
 const GameOpt = createSlice({

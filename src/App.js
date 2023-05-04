@@ -6,6 +6,11 @@ import { Board } from "./components/Board";
 function App() {
   const { Options, CurrentOption } = useSelector((state) => state.Options);
 
+  if (process.env.REACT_APP_ENV === "production") {
+    console.log(process.env.REACT_APP_ENV);
+    console.log = () => {};
+  }
+
   return (
     <div className="App">
       {CurrentOption ? (
